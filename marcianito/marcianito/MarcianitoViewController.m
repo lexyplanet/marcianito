@@ -17,11 +17,21 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+    if (self) {        
         // Custom initialization
         /*Yo beto modifique esto.*/
     }
     return self;
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch=[[event allTouches] anyObject];
+    CGPoint location =[touch locationInView:touch.view];
+    ufoImageView.center= location;
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self touchesBegan:touches withEvent:event];
 }
 
 - (void)viewDidLoad
