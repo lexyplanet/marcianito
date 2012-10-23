@@ -25,9 +25,20 @@
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    CGRect frame=ufoRayImageView.frame;
+    frame.size.height=0;
+    ufoRayImageView.frame=frame;
     UITouch *touch=[[event allTouches] anyObject];
     CGPoint location =[touch locationInView:touch.view];
     ufoImageView.center= location;
+}
+
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    CGRect frame=ufoRayImageView.frame;
+    frame.size.height=100;
+    frame.origin.x = ufoImageView.frame.origin.x-25;
+    frame.origin.y = ufoImageView.frame.origin.y+60;
+    ufoRayImageView.frame=frame;
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{

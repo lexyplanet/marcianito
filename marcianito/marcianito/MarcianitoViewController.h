@@ -13,6 +13,7 @@
 
 @interface MarcianitoViewController : UIViewController{
    IBOutlet UIImageView *ufoImageView;
+    IBOutlet UIImageView *ufoRayImageView;
     
 }
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5324BA9416374D7000722158 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5324BA9316374D7000722158 /* MainStoryboard.storyboard */; };
+		5324BA9916374DB000722158 /* ovni.png in Resources */ = {isa = PBXBuildFile; fileRef = 5324BA9616374DB000722158 /* ovni.png */; };
+		5324BA9A16374DB000722158 /* ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5324BA9716374DB000722158 /* ray.png */; };
+		5324BA9B16374DB000722158 /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5324BA9816374DB000722158 /* ufo.png */; };
+		532B918716372B170080E562 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532B918616372B170080E562 /* AudioToolbox.framework */; };
+		532B918A16372B520080E562 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532B918916372B520080E562 /* AVFoundation.framework */; };
 		CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A571636A06C0099F463 /* UIKit.framework */; };
 		CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A591636A06C0099F463 /* Foundation.framework */; };
 		CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A5B1636A06C0099F463 /* CoreGraphics.framework */; };
@@ -16,7 +22,6 @@
 		CED48A6A1636A06C0099F463 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CED48A691636A06C0099F463 /* Default.png */; };
 		CED48A6C1636A06C0099F463 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED48A6B1636A06C0099F463 /* Default@2x.png */; };
 		CED48A6E1636A06C0099F463 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED48A6D1636A06C0099F463 /* Default-568h@2x.png */; };
-		CED48A711636A06C0099F463 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED48A6F1636A06C0099F463 /* MainStoryboard.storyboard */; };
 		CED48A7E1636A0EF0099F463 /* MarcianitoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED48A7D1636A0EF0099F463 /* MarcianitoViewController.m */; };
 		CED48A821636A1320099F463 /* saltito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED48A801636A1320099F463 /* saltito.mp3 */; };
 		CED48A831636A1320099F463 /* sonidoFondo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED48A811636A1320099F463 /* sonidoFondo.mp3 */; };
@@ -26,6 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5324BA9316374D7000722158 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5324BA9616374DB000722158 /* ovni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovni.png; sourceTree = "<group>"; };
+		5324BA9716374DB000722158 /* ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ray.png; sourceTree = "<group>"; };
+		5324BA9816374DB000722158 /* ufo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo.png; sourceTree = "<group>"; };
+		532B918616372B170080E562 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		532B918916372B520080E562 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CED48A531636A06C0099F463 /* marcianito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marcianito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED48A571636A06C0099F463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CED48A591636A06C0099F463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,7 +50,6 @@
 		CED48A691636A06C0099F463 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CED48A6B1636A06C0099F463 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CED48A6D1636A06C0099F463 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CED48A701636A06C0099F463 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CED48A7C1636A0EF0099F463 /* MarcianitoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarcianitoViewController.h; sourceTree = "<group>"; };
 		CED48A7D1636A0EF0099F463 /* MarcianitoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarcianitoViewController.m; sourceTree = "<group>"; };
 		CED48A801636A1320099F463 /* saltito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = saltito.mp3; sourceTree = "<group>"; };
@@ -54,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532B918A16372B520080E562 /* AVFoundation.framework in Frameworks */,
+				532B918716372B170080E562 /* AudioToolbox.framework in Frameworks */,
 				CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */,
 				CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */,
 				CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +95,8 @@
 		CED48A561636A06C0099F463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				532B918916372B520080E562 /* AVFoundation.framework */,
+				532B918616372B170080E562 /* AudioToolbox.framework */,
 				CED48A571636A06C0099F463 /* UIKit.framework */,
 				CED48A591636A06C0099F463 /* Foundation.framework */,
 				CED48A5B1636A06C0099F463 /* CoreGraphics.framework */,
@@ -95,7 +109,7 @@
 			children = (
 				CED48A661636A06C0099F463 /* AppDelegate.h */,
 				CED48A671636A06C0099F463 /* AppDelegate.m */,
-				CED48A6F1636A06C0099F463 /* MainStoryboard.storyboard */,
+				5324BA9316374D7000722158 /* MainStoryboard.storyboard */,
 				CED48A7A1636A0A20099F463 /* sonidos */,
 				CED48A7B1636A0A90099F463 /* img */,
 				CED48A7F1636A0F70099F463 /* MarcianitoViewController */,
@@ -130,6 +144,9 @@
 		CED48A7B1636A0A90099F463 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				5324BA9616374DB000722158 /* ovni.png */,
+				5324BA9716374DB000722158 /* ray.png */,
+				5324BA9816374DB000722158 /* ufo.png */,
 				CED48A841636A1650099F463 /* alien.png */,
 				CED48A851636A1650099F463 /* fondo.png */,
 				CED48A861636A1650099F463 /* tocame.png */,
@@ -201,12 +218,15 @@
 				CED48A6A1636A06C0099F463 /* Default.png in Resources */,
 				CED48A6C1636A06C0099F463 /* Default@2x.png in Resources */,
 				CED48A6E1636A06C0099F463 /* Default-568h@2x.png in Resources */,
-				CED48A711636A06C0099F463 /* MainStoryboard.storyboard in Resources */,
 				CED48A821636A1320099F463 /* saltito.mp3 in Resources */,
 				CED48A831636A1320099F463 /* sonidoFondo.mp3 in Resources */,
 				CED48A871636A1650099F463 /* alien.png in Resources */,
 				CED48A881636A1650099F463 /* fondo.png in Resources */,
 				CED48A891636A1650099F463 /* tocame.png in Resources */,
+				5324BA9416374D7000722158 /* MainStoryboard.storyboard in Resources */,
+				5324BA9916374DB000722158 /* ovni.png in Resources */,
+				5324BA9A16374DB000722158 /* ray.png in Resources */,
+				5324BA9B16374DB000722158 /* ufo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,14 +252,6 @@
 				CED48A611636A06C0099F463 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CED48A6F1636A06C0099F463 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CED48A701636A06C0099F463 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +348,7 @@
 				CED48A791636A06C0099F463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
