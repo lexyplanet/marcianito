@@ -31,6 +31,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="alien:" destination="eZO-c9-Bvw" eventType="touchUpInside" id="gUY-AD-X1f"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -45,6 +48,9 @@
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="bottom" secondItem="dwg-7M-B9k" secondAttribute="bottom" type="default" id="rdd-lZ-NTi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alienProp" destination="ZX6-1h-KMc" id="Zvh-jG-yVP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXn-af-wAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,6 +62,18 @@
         <image name="fondo.png" width="640" height="960"/>
         <image name="tocame.png" width="298" height="148"/>
     </resources>
+    <classes>
+        <class className="MarcianitoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MarcianitoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="alien:"/>
+                <relationship kind="outlet" name="alienProp" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

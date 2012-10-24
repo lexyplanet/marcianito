@@ -15,6 +15,8 @@
 @property (nonatomic, strong) AVAudioPlayer * reproductor;
 @property (nonatomic, strong) IBOutlet UIButton *alienProp;
 
+@property (nonatomic, strong) UIImageView *imageToMove;
+
 -(IBAction)alien:(id)sender;
 
 @end

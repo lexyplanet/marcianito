@@ -14,6 +14,8 @@
 
 @implementation MarcianitoViewController
 
+@synthesize imageToMove;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -25,8 +27,14 @@
 
 - (void)viewDidLoad
 {
+    //Platillo volante para mover con el dedo
+    imageToMove = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ufo-brown.png"]];
+    imageToMove.frame = CGRectMake(110, 10, 211, 130);
+    [self.view addSubview:imageToMove];
+    
     [super viewDidLoad];
-	NSError * error;
+	
+    NSError * error;
     NSString * ruta = [[NSBundle mainBundle] pathForResource:@"sonidoFondo" ofType:@"mp3"];
     
     NSURL * url = [[NSURL alloc] initFileURLWithPath:ruta];
@@ -41,6 +49,8 @@
     
     [self.reproductor play];
     [self.reproductor setNumberOfLoops:-1];//el valor -1 indica que la repetición del bucle de sonido será infinita.
+    
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -85,7 +95,30 @@
     }
                      completion:nil //ya ha llegado abajo así que me quedo nulo
      ];
+}
+
+#pragma mark - Movimiento Touch
+
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [touches anyObject];
+    CGPoint location = [touch locationInView:self.view];
+    imageToMove.center = location;
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self touchesBegan:touches withEvent:event];
+}
+
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
     
 }
+
+#pragma mark - Movimiento curvo
+
+
+
 
 @end

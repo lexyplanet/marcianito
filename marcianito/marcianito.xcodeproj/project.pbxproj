@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAD2A071637EE1200C296F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */; };
+		CEAD2A0A1637EE1C00C296F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */; };
+		CEAD2A0E1637EECD00C296F0 /* abduction-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */; };
+		CEAD2A0F1637EECD00C296F0 /* ufo-brown-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */; };
+		CEAD2A101637EECD00C296F0 /* ufo-brown.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */; };
 		CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A571636A06C0099F463 /* UIKit.framework */; };
 		CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A591636A06C0099F463 /* Foundation.framework */; };
 		CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A5B1636A06C0099F463 /* CoreGraphics.framework */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abduction-ray.png"; sourceTree = "<group>"; };
+		CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ufo-brown-ray.png"; sourceTree = "<group>"; };
+		CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ufo-brown.png"; sourceTree = "<group>"; };
 		CED48A531636A06C0099F463 /* marcianito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marcianito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED48A571636A06C0099F463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CED48A591636A06C0099F463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAD2A0A1637EE1C00C296F0 /* AVFoundation.framework in Frameworks */,
+				CEAD2A071637EE1200C296F0 /* AudioToolbox.framework in Frameworks */,
 				CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */,
 				CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */,
 				CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +95,8 @@
 		CED48A561636A06C0099F463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */,
+				CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */,
 				CED48A571636A06C0099F463 /* UIKit.framework */,
 				CED48A591636A06C0099F463 /* Foundation.framework */,
 				CED48A5B1636A06C0099F463 /* CoreGraphics.framework */,
@@ -130,6 +144,9 @@
 		CED48A7B1636A0A90099F463 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */,
+				CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */,
+				CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */,
 				CED48A841636A1650099F463 /* alien.png */,
 				CED48A851636A1650099F463 /* fondo.png */,
 				CED48A861636A1650099F463 /* tocame.png */,
@@ -207,6 +224,9 @@
 				CED48A871636A1650099F463 /* alien.png in Resources */,
 				CED48A881636A1650099F463 /* fondo.png in Resources */,
 				CED48A891636A1650099F463 /* tocame.png in Resources */,
+				CEAD2A0E1637EECD00C296F0 /* abduction-ray.png in Resources */,
+				CEAD2A0F1637EECD00C296F0 /* ufo-brown-ray.png in Resources */,
+				CEAD2A101637EECD00C296F0 /* ufo-brown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
