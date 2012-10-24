@@ -336,6 +336,7 @@
 				CED48A791636A06C0099F463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

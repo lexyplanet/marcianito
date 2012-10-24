@@ -74,8 +74,8 @@
                      }
      
      ];
-    
 }
+
 - (void)baja{
     
     [UIView animateWithDuration:0.5 animations:^(void){
