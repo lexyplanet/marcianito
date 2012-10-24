@@ -48,13 +48,14 @@
     {
         Rayos.size.height=100;
         int xMarcianito;
-        xMarcianito=random()%140; // Hago un random para hacer una localización diferente del alien.
+        
+        xMarcianito = random()%140; // Hago un random para hacer una localización diferente del alien.
+        
         if(xMarcianito<=38 && xMarcianito>=Rayos.origin.x){
             xMarcianito=xMarcianito+140;
         }
         else if(xMarcianito<=frameMarcianito.origin.x)
             xMarcianito=xMarcianito+60*random()%140;
-        
         
         CGRect alien=alienProp.frame;
         alien.origin.x = xMarcianito;
