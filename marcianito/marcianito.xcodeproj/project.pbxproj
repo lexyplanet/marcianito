@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAD29FE1637EB7F00C296F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD29FD1637EB7F00C296F0 /* AudioToolbox.framework */; };
+		CEAD2A011637EB8A00C296F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A001637EB8A00C296F0 /* AVFoundation.framework */; };
 		CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A571636A06C0099F463 /* UIKit.framework */; };
 		CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A591636A06C0099F463 /* Foundation.framework */; };
 		CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A5B1636A06C0099F463 /* CoreGraphics.framework */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEAD29FD1637EB7F00C296F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEAD2A001637EB8A00C296F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CED48A531636A06C0099F463 /* marcianito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marcianito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED48A571636A06C0099F463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CED48A591636A06C0099F463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAD2A011637EB8A00C296F0 /* AVFoundation.framework in Frameworks */,
+				CEAD29FE1637EB7F00C296F0 /* AudioToolbox.framework in Frameworks */,
 				CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */,
 				CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */,
 				CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +89,8 @@
 		CED48A561636A06C0099F463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD2A001637EB8A00C296F0 /* AVFoundation.framework */,
+				CEAD29FD1637EB7F00C296F0 /* AudioToolbox.framework */,
 				CED48A571636A06C0099F463 /* UIKit.framework */,
 				CED48A591636A06C0099F463 /* Foundation.framework */,
 				CED48A5B1636A06C0099F463 /* CoreGraphics.framework */,
