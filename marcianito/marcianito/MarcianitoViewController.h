@@ -13,13 +13,13 @@
 
 @interface MarcianitoViewController : UIViewController{
    IBOutlet UIImageView *ufoImageView;
-    IBOutlet UIImageView *ufoRayImageView;
-    
+   IBOutlet UIImageView *ufoRayImageView;
+   IBOutlet UIButton *alienProp; 
 }
 
 
 @property (nonatomic, strong) AVAudioPlayer * reproductor;
-@property (nonatomic, strong) IBOutlet UIButton *alienProp;
+//@property (nonatomic, strong) IBOutlet UIButton *alienProp;
 
 -(IBAction)alien:(id)sender;
 

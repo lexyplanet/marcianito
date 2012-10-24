@@ -58,7 +58,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="alienProp" destination="ZX6-1h-KMc" id="ZkZ-tS-tTp"/>
+                        <outlet property="alienProp" destination="ZX6-1h-KMc" id="Ufv-Nt-kir"/>
                         <outlet property="ufoImageView" destination="BiL-MA-qAb" id="wmO-r2-ZFx"/>
                         <outlet property="ufoRayImageView" destination="vRR-jq-AD8" id="Rrf-Gu-e5i"/>
                     </connections>
