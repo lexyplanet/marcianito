@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eZO-c9-Bvw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eZO-c9-Bvw">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="eZO-c9-Bvw" customClass="MarcianitoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dwg-7M-B9k">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-b6-z9N"/>
@@ -41,13 +41,14 @@
                             <constraint firstItem="GRD-5O-yQv" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" type="default" id="54y-B0-evY"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="top" secondItem="dwg-7M-B9k" secondAttribute="top" type="default" id="U0e-pl-XhW"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" type="default" id="UnG-vo-TGP"/>
-                            <constraint firstAttribute="bottom" secondItem="ZX6-1h-KMc" secondAttribute="bottom" constant="81" id="bjl-2g-FVL"/>
+                            <constraint firstAttribute="bottom" secondItem="ZX6-1h-KMc" secondAttribute="bottom" constant="65" id="a3z-A1-gKf"/>
                             <constraint firstAttribute="bottom" secondItem="GRD-5O-yQv" secondAttribute="bottom" constant="170" id="fco-1z-lim"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="trailing" secondItem="dwg-7M-B9k" secondAttribute="trailing" type="default" id="g9l-TD-yUB"/>
                             <constraint firstItem="ZX6-1h-KMc" firstAttribute="centerX" secondItem="EaJ-b6-z9N" secondAttribute="centerX" type="default" id="jB8-ty-RtP"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="bottom" secondItem="dwg-7M-B9k" secondAttribute="bottom" type="default" id="rdd-lZ-NTi"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="alienProp" destination="ZX6-1h-KMc" id="Zvh-jG-yVP"/>
                     </connections>

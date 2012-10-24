@@ -29,7 +29,7 @@
 {
     //Platillo volante para mover con el dedo
     imageToMove = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ufo-brown.png"]];
-    imageToMove.frame = CGRectMake(110, 10, 211, 130);
+    imageToMove.frame = CGRectMake(110, 10, 211, 130);//x,y, width, height
     [self.view addSubview:imageToMove];
     
     [super viewDidLoad];
