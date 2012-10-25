@@ -10,12 +10,19 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-@interface MarcianitoViewController : UIViewController
+
+@interface MarcianitoViewController : UIViewController{
+    IBOutlet UIImageView *ufoImageView;
+    IBOutlet UIImageView *ufoRayImageView;
+    IBOutlet UIButton *alienProp;
+    //IBOutlet UIImageView *imageView;
+}
+
 
 @property (nonatomic, strong) AVAudioPlayer * reproductor;
-@property (nonatomic, strong) IBOutlet UIButton *alienProp;
-
-@property (nonatomic, strong) UIImageView *imageToMove;
+@property (nonatomic, strong) AVAudioPlayer * reproductorGrillos;
+@property (nonatomic, strong) IBOutlet UIImageView *imageView;
+//@property (nonatomic, strong) IBOutlet UIButton *alienProp;
 
 -(IBAction)alien:(id)sender;
 

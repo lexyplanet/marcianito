@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA0A95B1639C7650032D3DE /* atmosferico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9531639C7650032D3DE /* atmosferico.mp3 */; };
+		CEA0A95C1639C7650032D3DE /* grillos1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9541639C7650032D3DE /* grillos1.mp3 */; };
+		CEA0A95D1639C7650032D3DE /* grillosyranas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9551639C7650032D3DE /* grillosyranas.mp3 */; };
+		CEA0A95E1639C7650032D3DE /* lazer1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9561639C7650032D3DE /* lazer1.mp3 */; };
+		CEA0A95F1639C7650032D3DE /* lazer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9571639C7650032D3DE /* lazer2.mp3 */; };
+		CEA0A9601639C7650032D3DE /* risamalvada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9581639C7650032D3DE /* risamalvada.mp3 */; };
+		CEA0A9611639C7650032D3DE /* teletransporte1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9591639C7650032D3DE /* teletransporte1.mp3 */; };
+		CEA0A9621639C7650032D3DE /* teletransporte2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A95A1639C7650032D3DE /* teletransporte2.mp3 */; };
+		CEA0A96E1639C7B60032D3DE /* fondo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9641639C7B60032D3DE /* fondo_1.png */; };
+		CEA0A96F1639C7B60032D3DE /* fondo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9651639C7B60032D3DE /* fondo_2.png */; };
+		CEA0A9701639C7B60032D3DE /* fondo_respaldo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9661639C7B60032D3DE /* fondo_respaldo.png */; };
+		CEA0A9711639C7B60032D3DE /* ovni-icono-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9671639C7B60032D3DE /* ovni-icono-57x57.png */; };
+		CEA0A9721639C7B60032D3DE /* ovni-icono-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9681639C7B60032D3DE /* ovni-icono-114x114.png */; };
+		CEA0A9731639C7B60032D3DE /* ovni-lauch-320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9691639C7B60032D3DE /* ovni-lauch-320x480.png */; };
+		CEA0A9741639C7B60032D3DE /* ovni-lauch-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96A1639C7B60032D3DE /* ovni-lauch-640x960.png */; };
+		CEA0A9751639C7B60032D3DE /* ovni.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96B1639C7B60032D3DE /* ovni.png */; };
+		CEA0A9761639C7B60032D3DE /* ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96C1639C7B60032D3DE /* ray.png */; };
+		CEA0A9771639C7B60032D3DE /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96D1639C7B60032D3DE /* ufo.png */; };
 		CEAD2A071637EE1200C296F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */; };
 		CEAD2A0A1637EE1C00C296F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */; };
 		CEAD2A0E1637EECD00C296F0 /* abduction-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */; };
@@ -31,6 +49,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEA0A9531639C7650032D3DE /* atmosferico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atmosferico.mp3; sourceTree = "<group>"; };
+		CEA0A9541639C7650032D3DE /* grillos1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grillos1.mp3; sourceTree = "<group>"; };
+		CEA0A9551639C7650032D3DE /* grillosyranas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grillosyranas.mp3; sourceTree = "<group>"; };
+		CEA0A9561639C7650032D3DE /* lazer1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lazer1.mp3; sourceTree = "<group>"; };
+		CEA0A9571639C7650032D3DE /* lazer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lazer2.mp3; sourceTree = "<group>"; };
+		CEA0A9581639C7650032D3DE /* risamalvada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = risamalvada.mp3; sourceTree = "<group>"; };
+		CEA0A9591639C7650032D3DE /* teletransporte1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teletransporte1.mp3; sourceTree = "<group>"; };
+		CEA0A95A1639C7650032D3DE /* teletransporte2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teletransporte2.mp3; sourceTree = "<group>"; };
+		CEA0A9641639C7B60032D3DE /* fondo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo_1.png; sourceTree = "<group>"; };
+		CEA0A9651639C7B60032D3DE /* fondo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo_2.png; sourceTree = "<group>"; };
+		CEA0A9661639C7B60032D3DE /* fondo_respaldo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo_respaldo.png; sourceTree = "<group>"; };
+		CEA0A9671639C7B60032D3DE /* ovni-icono-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-icono-57x57.png"; sourceTree = "<group>"; };
+		CEA0A9681639C7B60032D3DE /* ovni-icono-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-icono-114x114.png"; sourceTree = "<group>"; };
+		CEA0A9691639C7B60032D3DE /* ovni-lauch-320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-lauch-320x480.png"; sourceTree = "<group>"; };
+		CEA0A96A1639C7B60032D3DE /* ovni-lauch-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-lauch-640x960.png"; sourceTree = "<group>"; };
+		CEA0A96B1639C7B60032D3DE /* ovni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovni.png; sourceTree = "<group>"; };
+		CEA0A96C1639C7B60032D3DE /* ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ray.png; sourceTree = "<group>"; };
+		CEA0A96D1639C7B60032D3DE /* ufo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo.png; sourceTree = "<group>"; };
 		CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abduction-ray.png"; sourceTree = "<group>"; };
@@ -135,6 +171,14 @@
 		CED48A7A1636A0A20099F463 /* sonidos */ = {
 			isa = PBXGroup;
 			children = (
+				CEA0A9531639C7650032D3DE /* atmosferico.mp3 */,
+				CEA0A9541639C7650032D3DE /* grillos1.mp3 */,
+				CEA0A9551639C7650032D3DE /* grillosyranas.mp3 */,
+				CEA0A9561639C7650032D3DE /* lazer1.mp3 */,
+				CEA0A9571639C7650032D3DE /* lazer2.mp3 */,
+				CEA0A9581639C7650032D3DE /* risamalvada.mp3 */,
+				CEA0A9591639C7650032D3DE /* teletransporte1.mp3 */,
+				CEA0A95A1639C7650032D3DE /* teletransporte2.mp3 */,
 				CED48A801636A1320099F463 /* saltito.mp3 */,
 				CED48A811636A1320099F463 /* sonidoFondo.mp3 */,
 			);
@@ -147,6 +191,16 @@
 				CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */,
 				CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */,
 				CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */,
+				CEA0A9641639C7B60032D3DE /* fondo_1.png */,
+				CEA0A9651639C7B60032D3DE /* fondo_2.png */,
+				CEA0A9661639C7B60032D3DE /* fondo_respaldo.png */,
+				CEA0A9671639C7B60032D3DE /* ovni-icono-57x57.png */,
+				CEA0A9681639C7B60032D3DE /* ovni-icono-114x114.png */,
+				CEA0A9691639C7B60032D3DE /* ovni-lauch-320x480.png */,
+				CEA0A96A1639C7B60032D3DE /* ovni-lauch-640x960.png */,
+				CEA0A96B1639C7B60032D3DE /* ovni.png */,
+				CEA0A96C1639C7B60032D3DE /* ray.png */,
+				CEA0A96D1639C7B60032D3DE /* ufo.png */,
 				CED48A841636A1650099F463 /* alien.png */,
 				CED48A851636A1650099F463 /* fondo.png */,
 				CED48A861636A1650099F463 /* tocame.png */,
@@ -227,6 +281,24 @@
 				CEAD2A0E1637EECD00C296F0 /* abduction-ray.png in Resources */,
 				CEAD2A0F1637EECD00C296F0 /* ufo-brown-ray.png in Resources */,
 				CEAD2A101637EECD00C296F0 /* ufo-brown.png in Resources */,
+				CEA0A95B1639C7650032D3DE /* atmosferico.mp3 in Resources */,
+				CEA0A95C1639C7650032D3DE /* grillos1.mp3 in Resources */,
+				CEA0A95D1639C7650032D3DE /* grillosyranas.mp3 in Resources */,
+				CEA0A95E1639C7650032D3DE /* lazer1.mp3 in Resources */,
+				CEA0A95F1639C7650032D3DE /* lazer2.mp3 in Resources */,
+				CEA0A9601639C7650032D3DE /* risamalvada.mp3 in Resources */,
+				CEA0A9611639C7650032D3DE /* teletransporte1.mp3 in Resources */,
+				CEA0A9621639C7650032D3DE /* teletransporte2.mp3 in Resources */,
+				CEA0A96E1639C7B60032D3DE /* fondo_1.png in Resources */,
+				CEA0A96F1639C7B60032D3DE /* fondo_2.png in Resources */,
+				CEA0A9701639C7B60032D3DE /* fondo_respaldo.png in Resources */,
+				CEA0A9711639C7B60032D3DE /* ovni-icono-57x57.png in Resources */,
+				CEA0A9721639C7B60032D3DE /* ovni-icono-114x114.png in Resources */,
+				CEA0A9731639C7B60032D3DE /* ovni-lauch-320x480.png in Resources */,
+				CEA0A9741639C7B60032D3DE /* ovni-lauch-640x960.png in Resources */,
+				CEA0A9751639C7B60032D3DE /* ovni.png in Resources */,
+				CEA0A9761639C7B60032D3DE /* ray.png in Resources */,
+				CEA0A9771639C7B60032D3DE /* ufo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
