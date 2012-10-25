@@ -22,14 +22,11 @@
 		CEA0A9721639C7B60032D3DE /* ovni-icono-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9681639C7B60032D3DE /* ovni-icono-114x114.png */; };
 		CEA0A9731639C7B60032D3DE /* ovni-lauch-320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A9691639C7B60032D3DE /* ovni-lauch-320x480.png */; };
 		CEA0A9741639C7B60032D3DE /* ovni-lauch-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96A1639C7B60032D3DE /* ovni-lauch-640x960.png */; };
-		CEA0A9751639C7B60032D3DE /* ovni.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96B1639C7B60032D3DE /* ovni.png */; };
 		CEA0A9761639C7B60032D3DE /* ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96C1639C7B60032D3DE /* ray.png */; };
 		CEA0A9771639C7B60032D3DE /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA0A96D1639C7B60032D3DE /* ufo.png */; };
 		CEAD2A071637EE1200C296F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */; };
 		CEAD2A0A1637EE1C00C296F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */; };
 		CEAD2A0E1637EECD00C296F0 /* abduction-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */; };
-		CEAD2A0F1637EECD00C296F0 /* ufo-brown-ray.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */; };
-		CEAD2A101637EECD00C296F0 /* ufo-brown.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */; };
 		CED48A581636A06C0099F463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A571636A06C0099F463 /* UIKit.framework */; };
 		CED48A5A1636A06C0099F463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A591636A06C0099F463 /* Foundation.framework */; };
 		CED48A5C1636A06C0099F463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED48A5B1636A06C0099F463 /* CoreGraphics.framework */; };
@@ -44,8 +41,6 @@
 		CED48A821636A1320099F463 /* saltito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED48A801636A1320099F463 /* saltito.mp3 */; };
 		CED48A831636A1320099F463 /* sonidoFondo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED48A811636A1320099F463 /* sonidoFondo.mp3 */; };
 		CED48A871636A1650099F463 /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = CED48A841636A1650099F463 /* alien.png */; };
-		CED48A881636A1650099F463 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = CED48A851636A1650099F463 /* fondo.png */; };
-		CED48A891636A1650099F463 /* tocame.png in Resources */ = {isa = PBXBuildFile; fileRef = CED48A861636A1650099F463 /* tocame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,14 +59,11 @@
 		CEA0A9681639C7B60032D3DE /* ovni-icono-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-icono-114x114.png"; sourceTree = "<group>"; };
 		CEA0A9691639C7B60032D3DE /* ovni-lauch-320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-lauch-320x480.png"; sourceTree = "<group>"; };
 		CEA0A96A1639C7B60032D3DE /* ovni-lauch-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovni-lauch-640x960.png"; sourceTree = "<group>"; };
-		CEA0A96B1639C7B60032D3DE /* ovni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovni.png; sourceTree = "<group>"; };
 		CEA0A96C1639C7B60032D3DE /* ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ray.png; sourceTree = "<group>"; };
 		CEA0A96D1639C7B60032D3DE /* ufo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo.png; sourceTree = "<group>"; };
 		CEAD2A061637EE1200C296F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CEAD2A091637EE1C00C296F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abduction-ray.png"; sourceTree = "<group>"; };
-		CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ufo-brown-ray.png"; sourceTree = "<group>"; };
-		CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ufo-brown.png"; sourceTree = "<group>"; };
 		CED48A531636A06C0099F463 /* marcianito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marcianito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED48A571636A06C0099F463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CED48A591636A06C0099F463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,8 +83,6 @@
 		CED48A801636A1320099F463 /* saltito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = saltito.mp3; sourceTree = "<group>"; };
 		CED48A811636A1320099F463 /* sonidoFondo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonidoFondo.mp3; sourceTree = "<group>"; };
 		CED48A841636A1650099F463 /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
-		CED48A851636A1650099F463 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
-		CED48A861636A1650099F463 /* tocame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tocame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				CEAD2A0B1637EECD00C296F0 /* abduction-ray.png */,
-				CEAD2A0C1637EECD00C296F0 /* ufo-brown-ray.png */,
-				CEAD2A0D1637EECD00C296F0 /* ufo-brown.png */,
 				CEA0A9641639C7B60032D3DE /* fondo_1.png */,
 				CEA0A9651639C7B60032D3DE /* fondo_2.png */,
 				CEA0A9661639C7B60032D3DE /* fondo_respaldo.png */,
@@ -198,12 +186,9 @@
 				CEA0A9681639C7B60032D3DE /* ovni-icono-114x114.png */,
 				CEA0A9691639C7B60032D3DE /* ovni-lauch-320x480.png */,
 				CEA0A96A1639C7B60032D3DE /* ovni-lauch-640x960.png */,
-				CEA0A96B1639C7B60032D3DE /* ovni.png */,
 				CEA0A96C1639C7B60032D3DE /* ray.png */,
 				CEA0A96D1639C7B60032D3DE /* ufo.png */,
 				CED48A841636A1650099F463 /* alien.png */,
-				CED48A851636A1650099F463 /* fondo.png */,
-				CED48A861636A1650099F463 /* tocame.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -276,11 +261,7 @@
 				CED48A821636A1320099F463 /* saltito.mp3 in Resources */,
 				CED48A831636A1320099F463 /* sonidoFondo.mp3 in Resources */,
 				CED48A871636A1650099F463 /* alien.png in Resources */,
-				CED48A881636A1650099F463 /* fondo.png in Resources */,
-				CED48A891636A1650099F463 /* tocame.png in Resources */,
 				CEAD2A0E1637EECD00C296F0 /* abduction-ray.png in Resources */,
-				CEAD2A0F1637EECD00C296F0 /* ufo-brown-ray.png in Resources */,
-				CEAD2A101637EECD00C296F0 /* ufo-brown.png in Resources */,
 				CEA0A95B1639C7650032D3DE /* atmosferico.mp3 in Resources */,
 				CEA0A95C1639C7650032D3DE /* grillos1.mp3 in Resources */,
 				CEA0A95D1639C7650032D3DE /* grillosyranas.mp3 in Resources */,
@@ -296,7 +277,6 @@
 				CEA0A9721639C7B60032D3DE /* ovni-icono-114x114.png in Resources */,
 				CEA0A9731639C7B60032D3DE /* ovni-lauch-320x480.png in Resources */,
 				CEA0A9741639C7B60032D3DE /* ovni-lauch-640x960.png in Resources */,
-				CEA0A9751639C7B60032D3DE /* ovni.png in Resources */,
 				CEA0A9761639C7B60032D3DE /* ray.png in Resources */,
 				CEA0A9771639C7B60032D3DE /* ufo.png in Resources */,
 			);
