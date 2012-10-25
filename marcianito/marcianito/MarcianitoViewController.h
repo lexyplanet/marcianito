@@ -16,6 +16,7 @@
     IBOutlet UIImageView *ufoRayImageView;
     IBOutlet UIButton *alienProp;
     //IBOutlet UIImageView *imageView;
+    //Finalizado 27/20/2012 rama pedroh
 }
 
 
