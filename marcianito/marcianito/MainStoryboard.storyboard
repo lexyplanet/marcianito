@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eZO-c9-Bvw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eZO-c9-Bvw">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
@@ -9,19 +9,14 @@
             <objects>
                 <viewController id="eZO-c9-Bvw" customClass="MarcianitoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dwg-7M-B9k">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-b6-z9N"/>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="tocame.png" translatesAutoresizingMaskIntoConstraints="NO" id="GRD-5O-yQv">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="89" id="XC6-Qt-W8n"/>
-                                    <constraint firstAttribute="width" constant="154" id="dmf-wg-rs4"/>
-                                </constraints>
-                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="EaJ-b6-z9N"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZX6-1h-KMc">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="102" id="n5c-ID-znl"/>
+                                    <constraint firstAttribute="width" constant="67" id="CP6-15-6qx"/>
+                                    <constraint firstAttribute="height" constant="83" id="uFW-yw-mIa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="alien.png">
@@ -32,24 +27,41 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="alien:" destination="eZO-c9-Bvw" eventType="touchUpInside" id="Jvm-j5-x9k"/>
+                                    <action selector="alien:" destination="eZO-c9-Bvw" eventType="touchUpInside" id="vg3-R3-Wln"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ray.png" translatesAutoresizingMaskIntoConstraints="NO" id="vRR-jq-AD8">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="GWR-aJ-rsw"/>
+                                    <constraint firstAttribute="height" id="GyH-nC-BbG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ufo.png" translatesAutoresizingMaskIntoConstraints="NO" id="BiL-MA-qAb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="H7g-4A-ldI"/>
+                                    <constraint firstAttribute="width" constant="107" id="xsp-63-hzE"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GRD-5O-yQv" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" type="default" id="54y-B0-evY"/>
+                            <constraint firstItem="vRR-jq-AD8" firstAttribute="top" secondItem="dwg-7M-B9k" secondAttribute="top" constant="113" id="Atq-cE-vsk"/>
+                            <constraint firstItem="ZX6-1h-KMc" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" constant="140" id="LER-2x-atF"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="top" secondItem="dwg-7M-B9k" secondAttribute="top" type="default" id="U0e-pl-XhW"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" type="default" id="UnG-vo-TGP"/>
-                            <constraint firstAttribute="bottom" secondItem="ZX6-1h-KMc" secondAttribute="bottom" constant="81" id="bjl-2g-FVL"/>
-                            <constraint firstAttribute="bottom" secondItem="GRD-5O-yQv" secondAttribute="bottom" constant="170" id="fco-1z-lim"/>
+                            <constraint firstItem="BiL-MA-qAb" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Uqd-eQ-Kfp"/>
+                            <constraint firstItem="vRR-jq-AD8" firstAttribute="leading" secondItem="dwg-7M-B9k" secondAttribute="leading" constant="78" id="XeD-zU-WQz"/>
+                            <constraint firstItem="BiL-MA-qAb" firstAttribute="top" secondItem="dwg-7M-B9k" secondAttribute="top" constant="4" id="XwL-kP-ber"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="trailing" secondItem="dwg-7M-B9k" secondAttribute="trailing" type="default" id="g9l-TD-yUB"/>
-                            <constraint firstItem="ZX6-1h-KMc" firstAttribute="centerX" secondItem="EaJ-b6-z9N" secondAttribute="centerX" type="default" id="jB8-ty-RtP"/>
+                            <constraint firstAttribute="bottom" secondItem="ZX6-1h-KMc" secondAttribute="bottom" constant="54" id="mBz-zM-e42"/>
                             <constraint firstItem="EaJ-b6-z9N" firstAttribute="bottom" secondItem="dwg-7M-B9k" secondAttribute="bottom" type="default" id="rdd-lZ-NTi"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="alienProp" destination="ZX6-1h-KMc" id="InZ-z0-U2g"/>
+                        <outlet property="alienProp" destination="ZX6-1h-KMc" id="Ufv-Nt-kir"/>
+                        <outlet property="imageView" destination="EaJ-b6-z9N" id="gnM-GX-bTy"/>
+                        <outlet property="ufoImageView" destination="BiL-MA-qAb" id="wmO-r2-ZFx"/>
+                        <outlet property="ufoRayImageView" destination="vRR-jq-AD8" id="Rrf-Gu-e5i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXn-af-wAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -59,8 +71,9 @@
     </scenes>
     <resources>
         <image name="alien.png" width="102" height="130"/>
-        <image name="fondo.png" width="640" height="960"/>
-        <image name="tocame.png" width="298" height="148"/>
+        <image name="fondo_1.png" width="640" height="960"/>
+        <image name="ray.png" width="358" height="458"/>
+        <image name="ufo.png" width="444" height="277"/>
     </resources>
     <classes>
         <class className="MarcianitoViewController" superclassName="UIViewController">
@@ -68,6 +81,9 @@
             <relationships>
                 <relationship kind="action" name="alien:"/>
                 <relationship kind="outlet" name="alienProp" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="ufoImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="ufoRayImageView" candidateClass="UIImageView"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -77,6 +93,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
